@@ -38,7 +38,8 @@ This project implements a complete computer vision pipeline for detecting and id
 
 ## How to run 
 
-**Warning!** All the files and the commands below should be run in the root of the project, otherwise the project will fail due to path conflicts.
+**Warning!** All the files and the commands below should be run in the root of the project, otherwise the project will fail due to path conflicts.  
+Moreover, the training directories for characters are not uploaded due to the files limit on Github (each directory includes 1000 images of each character). As a consequence, the following steps are available only if the project contains training images, too.
 
 #### Install dependencies (if you don't have them)
 ``` 
@@ -137,3 +138,4 @@ python -u yolo/save_results.py
 Finally, you have the results saved in the same format as the ones from classical machine learning approach.    
 
 The output paths are 333_Coman_IrinaElena/bonus/task1 for Task 1 and 333_Coman_IrinaElena/bonus/task2 for Task 2.
+
