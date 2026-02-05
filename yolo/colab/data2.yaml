@@ -1,0 +1,9 @@
+path: /content
+train: images/train
+val: images/val
+
+names:
+  0: fred
+  1: daphne
+  2: shaggy
+  3: velma

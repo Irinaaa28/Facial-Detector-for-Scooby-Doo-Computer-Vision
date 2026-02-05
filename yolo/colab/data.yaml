@@ -1,0 +1,13 @@
+# YOLOv8 data configuration file for Google Colab
+path: /content
+train: images/train
+val: images/val
+
+names: # task1
+  0: face 
+
+# names: # task2
+#   0: fred
+#   1: daphne
+#   2: shaggy
+#   3: velma  
